@@ -10,8 +10,8 @@ from keras.preprocessing.image import ImageDataGenerator
 
 def load_dataset():
     X, y = [], []
-    cancer_path = '/Users/aleksandarmitrovic/Downloads/RIS2023 2/rakave'
-    non_cancer_path = '/Users/aleksandarmitrovic/Downloads/RIS2023 2/zdrave'
+    cancer_path = 'Path_to_Cancerous'
+    non_cancer_path = 'Path_to_Healthy'
     
     # Load the cancer images
     for filename in os.listdir(cancer_path):
